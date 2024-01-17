@@ -1,0 +1,220 @@
+:root{
+    --secnd-font:font-family: 'MuseoModerno', sans-serif;
+}
+body
+{
+    color: #13110f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #623394;
+    font-family: 'Merriweather', serif;
+    
+}
+header
+{
+    display: flex;
+    margin: 0;
+    background-color: #ffa732;
+    align-items:center ;
+    justify-content: space-evenly;
+    padding: 18px;
+
+    
+}
+/* لم تعمل خاصية الفليكس بوكس لوضع عناصر الشريط في المنتصف بتساوي الي عند تحديد عرض لها */
+header ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    font-size: 22px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight:bold;
+    
+    
+    
+
+}
+
+header a:hover {
+    color:#623394;
+    transition:0.5s;
+  }
+
+    
+
+.top-content
+{
+    color: #ffa732;
+
+
+
+
+}
+.top-content h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    margin: 50px 0 0 ;
+    
+
+}
+.top-content h2
+{
+    font-size:35px ;
+    font-family: 'MuseoModerno', sans-serif;
+    
+}
+.container-middel
+{
+    background-color: white;
+    height: 550px;
+    width: 100%;
+
+
+    
+}
+.container-middel h2
+{
+    font-family: 'MuseoModerno', sans-serif;
+    color: #ffa732;
+    font-size: 2rem;
+}
+.container-middel p
+{
+    font-size: 18px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.laptop-vector
+{
+    margin-top:150px;
+}
+.personal-photo{
+    width: 200px;
+    margin-top: 50px;
+}
+hr{
+    border: dotted #eaf6f6 10px;
+    border-bottom: none;
+    width: 10%;
+    margin-top:0 ;
+   
+}
+.contrainer-bottom
+{
+    background-color: white;
+    padding: 50px 0;
+    
+   
+    
+    
+
+}
+.content-spead,.content-design,.content-photographer {
+    width: 30%;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .content-spead,.content-design,.content-photographer {
+       width: 85%;
+     }
+}
+
+
+.contrainer-bottom h2
+{
+    margin: 50px;
+    color: #ffa732;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 2rem;
+}
+.content-end
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 2rem;
+    padding: 50px;
+    
+    
+
+   
+}
+/* اضافه حجم للصور و تعديل علي الوان الفقرات و الخطوط  Done */
+/* معرفة كيف يتم تديد العرض لتنسيق مع الشاشات الاخرا  */
+
+.container-end 
+{
+    height: 150px;
+    
+
+}
+/* #################################### اكمال تنظيم العرض علي الشاشات المختلفه  */
+
+
+/* @media (max-width:767){
+
+    .content-spead{
+        width: 100%;
+        display: inline-block;
+
+    }
+} */
+h3 {
+    font-family: 'MuseoModerno', sans-serif;
+    color: #ffa732;
+    
+
+}
+
+.skills-photo
+{
+    
+    
+        width: 85%;
+        height: auto;
+       
+      
+}
+
+.container-end h3
+{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-left:60px ;
+}
+.contact-end ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  
+    
+}
+/* اضافة الراوابط لكل موقع  */
+.contact-end ul a 
+{
+    color:rgb(165, 85, 240);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
